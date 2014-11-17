@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_de_idealo_mapping_content_domain_Mapping" items="${mappings}" z="ZE8m7WyP1y48yH5+nsYyGKPnT1w=">
+        <table:table data="${mappings}" id="l_de_idealo_mapping_content_domain_Mapping" path="/mappings" typeIdFieldName="id_" z="i8t1vohTf5cD7cxbgNqT9nLaFeE=">
+            <table:column id="c_de_idealo_mapping_content_domain_Mapping_id" property="id" z="Kz9MmNuA2tDLvPRwv82LCZMBSmo="/>
+            <table:column id="c_de_idealo_mapping_content_domain_Mapping_source" property="source" z="bfzyEaj1lZfdKTUC0uOUv3Ytfeo="/>
+            <table:column id="c_de_idealo_mapping_content_domain_Mapping_target" property="target" z="Rp3gbtpcfHXVMO9avnx9zAHSr/o="/>
+            <table:column date="true" dateTimePattern="${mapping_created_date_format}" id="c_de_idealo_mapping_content_domain_Mapping_created" property="created" z="4BdbtRAU6U6Z66tssQoI/8Hg5bg="/>
+            <table:column id="c_de_idealo_mapping_content_domain_Mapping_country" property="country" z="B9X3QIvwuNL99ZnC6DafL4+0914="/>
+        </table:table>
+    </page:list>
+</div>

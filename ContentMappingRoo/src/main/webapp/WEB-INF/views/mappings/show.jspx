@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_de_idealo_mapping_content_domain_Mapping" object="${mapping}" path="/mappings" z="Dhw8nraxZ03k9ArBIsWepxBB+Xk=">
+        <field:display field="id" id="s_de_idealo_mapping_content_domain_Mapping_id" object="${mapping}" z="h8AFmr6SyubbPLc+75oZGJZnNjQ="/>
+        <field:display field="source" id="s_de_idealo_mapping_content_domain_Mapping_source" object="${mapping}" z="X2IEmoLUnoHIGtQ1cYS5AdjSJYc="/>
+        <field:display field="target" id="s_de_idealo_mapping_content_domain_Mapping_target" object="${mapping}" z="go2KgXHUxJYvqQD2DyZZyktUlxs="/>
+        <field:display field="country" id="s_de_idealo_mapping_content_domain_Mapping_country" object="${mapping}" z="FmYjBklFeVjzc0EKLlS3WGTliNo="/>
+    </page:show>
+</div>
